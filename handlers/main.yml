@@ -1,2 +1,4 @@
 ---
-# handlers file for lighthouse
+- name: Reload-nginx
+  become: true
+  ansible.builtin.command: nginx -s reload

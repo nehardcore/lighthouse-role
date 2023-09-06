@@ -1,2 +1,2 @@
 ---
-# vars file for lighthouse
+lighthouse_location_dir: "{{ ansible_user_dir }}/lighthouse"
